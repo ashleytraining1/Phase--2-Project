@@ -25,6 +25,7 @@ function About() {
           recusandae alias error harum maxime adipisci amet laborum.
           Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a
           cumque velit</p>
+          <p>&copy; 2022 ashleyindiana.com</p>
         </div>
       
     </div>

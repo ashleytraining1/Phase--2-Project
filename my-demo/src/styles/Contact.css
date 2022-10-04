@@ -22,8 +22,6 @@
   }
   
   .contact .rightSide h1 {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
     font-weight: 10;
     font-size: 50px;
     margin-left: 30px;
@@ -37,7 +35,17 @@
     padding: 30px;
   }
   
-  
+  .contactIcon svg{
+    color: #000000;
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .contactIcon svg:hover{
+    transform: scale(1.2);
+    background: #000000;
+    color: #fff;
+}
   
   form textarea {
     margin-top: 15px;

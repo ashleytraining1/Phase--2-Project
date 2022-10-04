@@ -1,5 +1,9 @@
 import React from 'react';
 import Image33 from '../assets/image33.jpg';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FaceBookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../styles/Contact.css'
 
 function Contact() {
@@ -13,6 +17,13 @@ function Contact() {
         </div>
         <div className='rightSide'>
             <h1>Contact Us</h1>
+
+            <div className='contactIcon'>
+          <InstagramIcon/>
+          <TwitterIcon/>
+          <FaceBookIcon/>
+          <LinkedInIcon/>
+        </div>
 
             <form id="contact-form" method="POST">
                
