@@ -1,17 +1,22 @@
-// import React from 'react'
+import React from 'react'
+import MenuList from '../helpers/MenuList'
 
-// function Menu() {
-  
-//   return (
-//     <div className='menu'>
-//         <h1 className='menuTitle'>Our Menu</h1>
-//         <div className='menuList'>
-        
-
-//         </div>
+function Menu({food}) {
+    const myFoods = food.map( food =>
+    <MenuList 
+key={food.id} 
+food={food} 
+/>)
+  return (
+     <div className="ui four column grid">
+      <div className="row">
+      {myFoods}
       
-//     </div>
-//   )
-// }
+        {/*...and here..*/}
+        Collection of all foods
+      </div>
+    </div>
+  );
+} 
 
-// export default Menu
+export default Menu

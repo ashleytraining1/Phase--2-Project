@@ -1,0 +1,139 @@
+{
+  "foods":[
+    {
+    "id":1,
+    "name": "Pea Soup",
+    "price": "$32",
+    "image-url": "assets/demo.png"
+    
+    },
+    {
+        "id":2,
+        "name": "Chocolate Cake",
+        "price": "$35",
+        "image -url": "assets/image13.png"
+        
+    },
+
+    {
+        "id":3,
+        "name": "Spicy-wings",
+        "price": "$22",
+        "image -url": "assets/image3.png"
+        
+    },
+
+    {
+        "id":4,
+        "name": "Indian-tofu",
+        "price": "$12",
+        "image -url": "assets/image4.png"
+        
+    },
+
+    {
+        "id":5,
+        "name": "Indian-pasta",
+        "price": "$30",
+        "image -url": "assets/image12.png"
+        
+    },
+
+    {
+        "id":6,
+        "name": "Samosas",
+        "price": "$3",
+        "image -url": "assets/image14.png"
+        
+    },
+
+    {
+        "id":7,
+        "name": "Salsa-salad",
+        "price": "$12",
+        "image -url": "assets/image5.png"
+        
+    },
+
+    {
+        "id":8,
+        "name": "Spicy-piza",
+        "price": "$24",
+        "image -url": "assets/image22.png"
+        
+    },
+
+    {
+        "id":9,
+        "name": "Broth",
+        "price": "$12",
+        "image -url": "assets/image29.png"
+        
+    },
+
+    {
+        "id":10,
+        "name": "Fried-rice",
+        "price": "$44",
+        "image -url": "assets/image20.png"
+        
+    },
+
+    {
+        "id":11,
+        "name": "Vegeterian burger",
+        "price": "$25",
+        "image -url": "assets/image21.png"
+        
+    },
+
+    {
+        "id":12,
+        "name": "Walk-in-park",
+        "price": "$15",
+        "image -url": "assets/image27.png"
+        
+    },
+
+    {
+        "id":13,
+        "name": "Fries",
+        "price": "$42",
+        "image -url": "assets/image25.png"
+        
+    },
+
+    {
+        "id":14,
+        "name": "Kaiyen",
+        "price": "$32",
+        "image -url": "assets/image23.png"
+        
+    },
+
+    {
+        "id":15,
+        "name": "Vegan Rice",
+        "price": "$20",
+        "image -url": "assets/image26.png"
+        
+    },
+
+    {
+        "id":16,
+        "name": "Milkshake",
+        "price": "$5",
+        "image -url": "assets/image24.png"
+        
+    },
+
+    {
+        "id":17,
+        "name": "Vegan Steak",
+        "price": "$35",
+        "image -url": "assets/image28.png"
+        
+    }
+
+]
+  }
