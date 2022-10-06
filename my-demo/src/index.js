@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './App';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -19,11 +18,26 @@ root.render(
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/about" exact component={About}/>
-        <Route path="/contact" exact component={Contact}/>
-        <Route path="/team" exact component={Team}/>
-        <Route path="/MenuPages" exact component={MenuPages} />
+      <Route exact path="/about">
+        <About />
+        </Route>
+
+        <Route exact path="/contact">
+        <Contact />
+        </Route>
+
+        <Route exact path="/team">
+        <Team />
+        </Route>
+
+        <Route exact path="/MenuPages">
+        <MenuPages />
+        </Route>
+
+        <Route exact path="/">
+          <Home />
+          </Route>
+        
       </Switch>
       <Footer />
       </BrowserRouter>
