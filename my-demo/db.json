@@ -4,14 +4,14 @@
     "id":1,
     "name": "Pea Soup",
     "price": "$32",
-    "image-url": "assets/demo.png"
+    "image": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     
     },
     {
         "id":2,
         "name": "Chocolate Cake",
         "price": "$35",
-        "image -url": "assets/image13.png"
+        "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -19,7 +19,7 @@
         "id":3,
         "name": "Spicy-wings",
         "price": "$22",
-        "image -url": "assets/image3.png"
+        "image": "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -27,7 +27,7 @@
         "id":4,
         "name": "Indian-tofu",
         "price": "$12",
-        "image -url": "assets/image4.png"
+        "image": "https://images.pexels.com/photos/262897/pexels-photo-262897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -35,7 +35,7 @@
         "id":5,
         "name": "Indian-pasta",
         "price": "$30",
-        "image -url": "assets/image12.png"
+        "image": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -43,15 +43,15 @@
         "id":6,
         "name": "Samosas",
         "price": "$3",
-        "image -url": "assets/image14.png"
+        "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
     {
         "id":7,
-        "name": "Salsa-salad",
+        "name": "Dumplings",
         "price": "$12",
-        "image -url": "assets/image5.png"
+        "image": "https://images.pexels.com/photos/8992923/pexels-photo-8992923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -59,7 +59,7 @@
         "id":8,
         "name": "Spicy-piza",
         "price": "$24",
-        "image -url": "assets/image22.png"
+        "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -67,7 +67,7 @@
         "id":9,
         "name": "Broth",
         "price": "$12",
-        "image -url": "assets/image29.png"
+        "image": "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -75,7 +75,7 @@
         "id":10,
         "name": "Fried-rice",
         "price": "$44",
-        "image -url": "assets/image20.png"
+        "image": "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -83,7 +83,7 @@
         "id":11,
         "name": "Vegeterian burger",
         "price": "$25",
-        "image -url": "assets/image21.png"
+        "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -91,7 +91,7 @@
         "id":12,
         "name": "Walk-in-park",
         "price": "$15",
-        "image -url": "assets/image27.png"
+        "image": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -99,7 +99,7 @@
         "id":13,
         "name": "Fries",
         "price": "$42",
-        "image -url": "assets/image25.png"
+        "image": "https://images.pexels.com/photos/115740/pexels-photo-115740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -107,23 +107,23 @@
         "id":14,
         "name": "Kaiyen",
         "price": "$32",
-        "image -url": "assets/image23.png"
+        "image": "https://images.pexels.com/photos/2679501/pexels-photo-2679501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
     {
         "id":15,
-        "name": "Vegan Rice",
+        "name": "Fried Chicken",
         "price": "$20",
-        "image -url": "assets/image26.png"
+        "image": "https://images.pexels.com/photos/5031938/pexels-photo-5031938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
     {
         "id":16,
-        "name": "Milkshake",
-        "price": "$5",
-        "image -url": "assets/image24.png"
+        "name": "Family Package",
+        "price": "$55",
+        "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     },
 
@@ -131,7 +131,7 @@
         "id":17,
         "name": "Vegan Steak",
         "price": "$35",
-        "image -url": "assets/image28.png"
+        "image": "https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         
     }
 
