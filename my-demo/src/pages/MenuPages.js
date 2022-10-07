@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react';
 import Menu from "./Menu";
 
 
-function MenuPages() {
+function MenuPages(){
     const [food, setFood] = useState([]);
 
     useEffect(()=> {
