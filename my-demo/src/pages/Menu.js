@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuList from '../helpers/MenuList';
-import "../styles/Menu.css";
+
 
 function Menu({food}) {
     const myFoods = food.map((foodata => {
