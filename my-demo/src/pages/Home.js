@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Image2 from '../assets/image2.png';
 import'../styles/Home.css';
 
- function Home() {
+ function Home(){
   return (
     <div className='home'>
       <div className='logo'>
