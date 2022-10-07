@@ -1,21 +1,36 @@
 import React from 'react'
-import MenuList from '../helpers/MenuList'
+import MenuList from '../helpers/MenuList';
+import "../styles/Menu.css";
 
 function Menu({food}) {
-    const myFoods = food.map( food =>
-    <MenuList 
-key={food.id} 
-food={food} 
-/>)
+    const myFoods = food.map((foodata => {
+    return <MenuList key={foodata.id} foodata={foodata} />
+  }))
+
+  const myFoodStyle = {
+    width: "1100px",
+    display: "flex",
+    flexWrap: "wrap"
+
+  }
+const myHeader = {
+  fontFamily: "cursive",
+  fontSize: "60px"
+}
   return (
-     <div className="ui four column grid">
-      <div className="row">
-      {myFoods}
-      
-        {/*...and here..*/}
-        Collection of all foods
-      </div>
+    <div>
+      <div className="ui three column grid">
+      <div className="row"> 
+      <div className="menuTitle">
+         <h1 style={myHeader}>Our Menu</h1>
+     </div>
+     <div style={myFoodStyle}>
+       {myFoods}
+     </div>
     </div>
+    //   </div>
+    //  </div>
+     
   );
 } 
 

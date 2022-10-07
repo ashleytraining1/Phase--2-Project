@@ -12,7 +12,7 @@ import'../styles/Home.css';
       <div className='headerContainer' >
         <h1>Ashley's Indiana </h1>
         <p>A MASTERCHEF QUALITY FOOD</p>
-        <Link to="/menu">
+        <Link to="/MenuPages">
         <button>ORDER NOW</button>
         </Link>
       </div>

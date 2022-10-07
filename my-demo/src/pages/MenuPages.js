@@ -8,14 +8,12 @@ function MenuPages() {
     useEffect(()=> {
         fetch("http://localhost:8000/foods")
         .then(response => response.json())
-        .then(data => console.log(data))
-        // .catch((error) => {
-        //   console.log(error.message)
-        // });
+        .then(data => setFood(data))
+        
       }, []);
   return (
     <div>
-      <Menu food={food} />
+      <Menu food={food} setFood={setFood} />
     </div>
   )
 }
