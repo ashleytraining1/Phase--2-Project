@@ -12,7 +12,6 @@ function Contact() {
         <div
         className='leftSide'
         style={{ backgroundImage: `url(${Image33})`}}
-        
         >
         </div>
         <div className='rightSide'>
