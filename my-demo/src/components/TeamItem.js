@@ -7,8 +7,7 @@ function TeamItem({image, name, position}) {
         <h2>{name}</h2>
         <p>{position}</p>
       
-    </div>
-    
+    </div> 
   )
 }
 
