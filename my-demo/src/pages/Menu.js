@@ -6,17 +6,22 @@ function Menu({food}) {
     const myFoods = food.map((foodata => {
     return <MenuList key={foodata.id} foodata={foodata} />
   }))
+  
 
   const myFoodStyle = {
     width: "1100px",
     display: "flex",
-    flexWrap: "wrap"
+    flexWrap: "wrap",
+    padding: "15px 50px 15px 50px",
+    boxShadow: "0px 5px 40px rgb(19 8 73 /13%)",
+    borderRadius: "20px",
+    transition: "all .40s ease"
 
   }
 const myHeader = {
-  fontFamily: "cursive",
   fontSize: "60px"
 }
+
   return (
     <div>
       <div className="ui three column grid">
@@ -26,6 +31,7 @@ const myHeader = {
      </div>
      <div style={myFoodStyle}>
        {myFoods}
+      
      </div>
     </div>
     //   </div>

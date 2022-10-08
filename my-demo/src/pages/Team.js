@@ -7,7 +7,7 @@ function Team() {
   return (
     <div className="team">
       <h1 className="teamTitle">Our Professional Chefs</h1>
-      <div className="teamList">
+       <div className="teamList">
         {TeamList.map((teamItem, key) => {
           return (
             <TeamItem

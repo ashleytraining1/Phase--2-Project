@@ -5,6 +5,7 @@ function FoodCard({foodata, foodEvent}) {
     width: "250px",
     height: "300px",
     margin: "10px",
+    border: "round",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -25,6 +26,7 @@ function FoodCard({foodata, foodEvent}) {
       <img src={foodata.image} style={imageStyles}></img>
       <h2>{foodata.name}</h2>
       <h3>{foodata.price}</h3>
+      <p>{foodata.button}</p>
       
    
     
